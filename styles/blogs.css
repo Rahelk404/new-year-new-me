@@ -19,13 +19,13 @@
     width: 100%;
 }
 
-.banner{
+.banner {
     text-align: right;
     padding: 216px 230px 364px 845px;
-    margin-bottom: 100px;
+    /* margin-bottom: 140px; */
 }
 
-.banner *{
+.banner * {
     margin-bottom: 24px;
 }
 
@@ -64,4 +64,72 @@ header .banner-btn a {
     text-decoration: none;
 }
 
-/* hello */
+
+/* Main Body Failure section */
+
+.failure-head {
+    display: flex;
+    margin: 140px 330px 220px 230px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 105px;
+}
+
+
+.failure-head .failure-title {
+    color: #151414;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.failure-text>h1 {
+
+    margin-bottom: 24px;
+}
+
+.failure-head .failure-description {
+    color: #444343;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 162.5% */
+    margin-bottom: 24px;
+}
+
+.failure-head .failure-item {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 8px;
+}
+
+/* failure image section */
+
+
+.failure-img {
+    position: relative;
+}
+
+.failure-circle {
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    height: 527.929px;
+    width: 527.929px;
+    position: absolute;
+    bottom: 0;
+    z-index: 50;
+    margin-left: 21px;
+    margin-bottom: 5px;
+}
+
+.failure-img-ex {
+    z-index: 100;
+    position: relative;
+}
