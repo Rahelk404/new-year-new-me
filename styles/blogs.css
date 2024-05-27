@@ -115,6 +115,8 @@ header .banner-btn a {
 
 .failure-img {
     position: relative;
+    
+    cursor: pointer;
 }
 
 .failure-circle {
