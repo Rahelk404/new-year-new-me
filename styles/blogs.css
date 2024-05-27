@@ -115,7 +115,7 @@ header .banner-btn a {
 
 .failure-img {
     position: relative;
-    
+
     cursor: pointer;
 }
 
@@ -134,4 +134,52 @@ header .banner-btn a {
 .failure-img-ex {
     z-index: 100;
     position: relative;
+}
+
+/* My Plan section  */
+.Plan-main * {
+    align-items: center;
+}
+
+.Plan-main {
+    margin: auto 230px;
+}
+
+.plan-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-content * {
+    margin-bottom: 17px;
+}
+
+.plan-text {
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-content p {
+    color: #737272;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.plan-content h3 {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
